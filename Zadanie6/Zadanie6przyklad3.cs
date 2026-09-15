@@ -14,6 +14,12 @@ public class HelloWorld
             Console.WriteLine($"Podaj liczbe nr {i+1}:");
             liczby[i] = int.Parse(Console.ReadLine());
         }
+
+        int min = liczby.Min();
+        int max = liczby.Max();
+        int pozycjaMin = Array.IndexOf(liczby, min);
+        int pozycjaMax = Array.IndexOf(liczby, max);
+
         for (int i = 0; i < arrayLength - 1; i++)
             for (int j = 0; j < arrayLength - i - 1; j++)
                 if (liczby[j] > liczby[j + 1])
@@ -26,6 +32,9 @@ public class HelloWorld
         foreach(int i in liczby)
         {
             Console.WriteLine($"{i}");
+            
         }
+        Console.WriteLine($"\nNajmniejsza liczba ({min}) była na pozycji: {pozycjaMin + 1}");
+        Console.WriteLine($"Największa liczba ({max}) była na pozycji: {pozycjaMax + 1}");
     }
 }

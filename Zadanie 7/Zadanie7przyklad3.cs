@@ -1,5 +1,4 @@
 ﻿using System;
-
 public class tablice
 {
     public static void Main(string[] args)
@@ -13,7 +12,7 @@ public class tablice
             liczba = int.Parse(Console.ReadLine());
             if(liczba == 0)
             {
-                break;
+             break;
             }else
             {
                 liczby.Add(liczba);
@@ -28,8 +27,7 @@ public class tablice
         }
         foreach (int i in liczby)
         {
-            if(i > 0)
-            {
+            if(i > 0){
              Console.WriteLine(i);
                 suma = suma + i;
             }

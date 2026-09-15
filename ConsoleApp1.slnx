@@ -1,10 +1,18 @@
 <Solution>
   <Project Path="ConsoleApp1/ConsoleApp1.csproj" />
+  <Project Path="Zadanie 10/Zadanie 10.csproj" Id="afc236c4-4d24-4412-aa76-b8387f0867cd" />
+  <Project Path="Zadanie 11/Zadanie 11.csproj" Id="395372fc-849e-4e63-8bf8-4dc705709530" />
+  <Project Path="Zadanie 12/Zadanie 12.csproj" Id="72fe7739-3573-4fdd-8e6c-db2daa88c13d" />
+  <Project Path="Zadanie 13/Zadanie 13.csproj" Id="271499a0-284b-47ab-8287-6d444bb1df8a" />
+  <Project Path="Zadanie 14/Zadanie 14.csproj" Id="2d236c2e-42bb-4372-9291-6edc6b9234c8" />
+  <Project Path="Zadanie 15/Zadanie 15.csproj" Id="a0235517-bacb-4c8b-8b2d-6429cb71bbd0" />
+  <Project Path="Zadanie 16/Zadanie 16.csproj" Id="21d2032c-8893-4172-9c7d-b29bfa8b4cc1" />
   <Project Path="Zadanie 2/Zadanie 2.csproj" />
   <Project Path="Zadanie 3/Zadanie 3.csproj" />
   <Project Path="Zadanie 4/Zadanie 4.csproj" />
   <Project Path="Zadanie 5/Zadanie 5.csproj" />
   <Project Path="Zadanie 7/Zadanie 7.csproj" />
   <Project Path="Zadanie 8/Zadanie 8.csproj" />
+  <Project Path="Zadanie 9/Zadanie 9.csproj" Id="dc4eb6bb-4139-4173-a08f-7e8808e1bd85" />
   <Project Path="Zadanie6/Zadanie 6.csproj" />
 </Solution>
