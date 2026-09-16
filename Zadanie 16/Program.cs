@@ -104,7 +104,6 @@ namespace LoteriaLiczbowa
         }
 
         static void WyswietlWystapienia(int[] liczniki)
-
         {
             Console.WriteLine("\nWystąpienia poszczególnych liczb:");
             for (int liczba = MinWartosc; liczba <= MaxWartosc; liczba++)
@@ -116,7 +115,6 @@ namespace LoteriaLiczbowa
         static void PoliczNiewylosowane(int[] liczniki)
         {
             int niewylosowane = 0;
-
             for(int i = 0; i < liczniki.Length; i++)
             {
                 for(int j=1; j <=49; j++)
@@ -125,7 +123,5 @@ namespace LoteriaLiczbowa
                 }
             }
         }
-
     }
-
 }
